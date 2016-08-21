@@ -1,6 +1,6 @@
 D2Coding Web Fonts
 ====
-[![D2Coding license](https://img.shields.io/badge/License-OFL-blue.svg)](https://raw.githubusercontent.com/Joungkyun/font-d2coding/master/LICENSE)
+[![D2Coding license](https://img.shields.io/badge/License-OFL-blue.svg)](https://raw.githubusercontent.com/Joungkyun/font-d2coding/master/license)
 
 D2Coding Web Font who careted by [NAVER Corp](http://dev.naver.com/projects/d2coding).
 
