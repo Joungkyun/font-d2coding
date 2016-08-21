@@ -42,7 +42,7 @@ Insert d2coding.css or create @font-face css to HTML:
 
 or
 
-```html
+```css
 @font-face {
   font-family: 'D2 coding';
   font-style: normal;
@@ -70,7 +70,7 @@ or
 
 Adding to CSS:
 
-```html
+```css
 body {
 	font-family: D2Coding, 'D2 coding', monosapce;
 }
