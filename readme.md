@@ -48,7 +48,7 @@ or
   font-style: normal;
   font-weight: 700;
   src: url('D2Coding-Bold.eot');
-  src: local('※'), local('D2Coding'),
+  src: local('※'), local('D2Coding Bold'),
        url('/path/D2Coding-Bold.eot?#iefix') format('embedded-opentype'),
        url('/path/D2Coding-Bold.woff2') format('x-woff2'),
        url('/path/D2Coding-Bold.woff') format('woff'),
