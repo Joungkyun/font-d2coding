@@ -47,23 +47,23 @@ or
   font-family: 'D2 coding';
   font-style: normal;
   font-weight: 700;
-  src: url('D2Coding-Bold.eot');
+  src: url('/path/d2codingbold.eot');
   src: local('※'), local('D2Coding Bold'),
-       url('/path/D2Coding-Bold.eot?#iefix') format('embedded-opentype'),
-       url('/path/D2Coding-Bold.woff2') format('x-woff2'),
-       url('/path/D2Coding-Bold.woff') format('woff'),
-       url('/path/D2Coding-Bold.ttf') format('truetype');
+       url('/path/d2codingbold.eot?#iefix') format('embedded-opentype'),
+       url('/path/d2codingbold.woff2') format('x-woff2'),
+       url('/path/d2codingbold.woff') format('woff'),
+       url('/path/d2codingbold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'D2 coding';
   font-style: normal;
   font-weight: 400;
-  src: url('D2Coding.eot');
+  src: url('/path/d2coding.eot');
   src: local('※'), local('D2Coding'),
-       url('/path/D2Coding.eot?#iefix') format('embedded-opentype'),
-       url('/path/D2Coding.woff2') format('x-woff2'),
-       url('/path/D2Coding.woff') format('woff'),
-       url('/path/D2Coding.ttf') format('truetype');
+       url('/path/d2coding.eot?#iefix') format('embedded-opentype'),
+       url('/path/d2coding.woff2') format('x-woff2'),
+       url('/path/d2coding.woff') format('woff'),
+       url('/path/d2coding.ttf') format('truetype');
 }
 
 ```
