@@ -52,7 +52,8 @@ or
        url('/path/d2codingbold.eot?#iefix') format('embedded-opentype'),
        url('/path/d2codingbold.woff2') format('x-woff2'),
        url('/path/d2codingbold.woff') format('woff'),
-       url('/path/d2codingbold.ttf') format('truetype');
+       url('/path/d2codingbold.ttf') format('truetype'),
+       url('/path/d2codingbold.svg') format('svg');
 }
 @font-face {
   font-family: 'D2 coding';
@@ -63,7 +64,8 @@ or
        url('/path/d2coding.eot?#iefix') format('embedded-opentype'),
        url('/path/d2coding.woff2') format('x-woff2'),
        url('/path/d2coding.woff') format('woff'),
-       url('/path/d2coding.ttf') format('truetype');
+       url('/path/d2coding.ttf') format('truetype'),
+       url('/path/d2coding.svg') format('svg');
 }
 
 ```
