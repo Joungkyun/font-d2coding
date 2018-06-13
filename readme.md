@@ -36,7 +36,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ### legature
 
-In applications that do not support the ligature function that was provided in 1.3, it has been found that the font output is not working properly due to this feature. Therefore, the ligature function has been separated from the 1.31 version. Invoke d2coding-ligature.css. The font-family is "D2 coding Ligature".
+In applications that do not support the ligature function that was provided in 1.3, it has been found that the font output is not working properly due to this feature. Therefore, the ligature function has been separated from the 1.3.1 version. Invoke d2coding-ligature.css. The font-family is "D2 coding Ligature".
+
+Due to the capacity limitation of jsdelivr, the D2 coding ligature branches to another repository.
+
+https://github.com/Joungkyun/font-d2coding-ligature
 
 ## Installation
 
