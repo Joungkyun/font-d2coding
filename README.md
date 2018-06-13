@@ -34,17 +34,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
  * ttf
  * svg (from 1.2.1)
 
-### legature
+### Legature
 
-In applications that do not support the ligature function that was provided in 1.3, it has been found that the font output is not working properly due to this feature. Therefore, the ligature function has been separated from the 1.3.1 version. Invoke d2coding-ligature.css. The font-family is "D2 coding Ligature".
+In applications that do not support the ligature function that was provided in 1.3, it has been found that the font output is not working properly due to this feature. Therefore, the ligature function has been separated from the 1.3.1 version. Invoke d2coding-ligature.css. The font-family is "___D2 coding Ligature___".
 
-Due to the capacity limitation of jsdelivr, the D2 coding ligature branches to another repository.
+Due to the capacity limitation of jsdelivr, the ___D2 coding ligature___ branches to another repository.
 
 https://github.com/Joungkyun/font-d2coding-ligature
 
 ## Installation
 
-Insert d2coding.css or create @font-face css to HTML:
+Insert d2coding.css or create ___@font-face___ css to HTML:
 
 ```html
 <link href="/path/d2coding.css" rel="stylesheet" type="text/css">
@@ -88,4 +88,4 @@ body {
 }
 ```
 
-first, search local D2Coding font and next call D2 coding web font, and last load monospace
+first, search local ___D2Coding font___ and next call ___D2 coding web font___, and last load ___monospace___
