@@ -5,19 +5,19 @@
   font-family: 'D2 coding';
   font-style: normal;
   font-weight: 700;
-  src: url('d2codingbold.eot');
+  src: url('D2CodingBold.eot');
   src: local('※'), local('D2Coding Bold'),
-       url('d2codingbold.eot?#iefix') format('embedded-opentype'),
-       url('d2codingbold.woff2') format('x-woff2'),
-       url('d2codingbold.woff') format('woff');
+       url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
+       url('D2CodingBold.woff2') format('x-woff2'),
+       url('D2CodingBold.woff') format('woff');
 }
 @font-face {
   font-family: 'D2 coding';
   font-style: normal;
   font-weight: 400;
-  src: url('d2coding.eot');
+  src: url('D2Coding.eot');
   src: local('※'), local('D2Coding'),
-       url('d2coding.eot?#iefix') format('embedded-opentype'),
-       url('d2coding.woff2') format('x-woff2'),
-       url('d2coding.woff') format('woff');
+       url('D2Coding.eot?#iefix') format('embedded-opentype'),
+       url('D2Coding.woff2') format('x-woff2'),
+       url('D2Coding.woff') format('woff');
 }
