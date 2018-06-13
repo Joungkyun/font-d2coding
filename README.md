@@ -34,7 +34,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
  * ttf
  * svg (from 1.2.1)
 
-### Legature
+## Description
+
+The [D2Coding](https://github.com/naver/d2codingfont) font is Korean developed font distributed by Naver. It is a font that is optimized for the coding of developers based on the well-known Nanum Barun Gothic font, considering not only the readability and similarity between characters but also harmony with Hangul in design.
 
 In applications that do not support the ligature function that was provided in 1.3, it has been found that the font output is not working properly due to this feature. Therefore, the ligature function has been separated from the 1.3.1 version. Invoke d2coding-ligature.css. The font-family is "___D2 coding Ligature___".
 
@@ -44,41 +46,62 @@ https://github.com/Joungkyun/font-d2coding-ligature
 
 ## Installation
 
-Insert d2coding.css or create ___@font-face___ css to HTML:
+### 1. Using JSDelivr
+
+Add the following code to the header section of the HTML document:
+
+```html
+<link href="http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css" rel="stylesheet" type="text/css">
+```
+
+Or, if you want to add a ___specific version___:
+
+```html
+<link href="http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding@1.3.2/d2coding.css" rel="stylesheet" type="text/css">
+```
+
+### 2. Using download package
+
+1. Uncompress the downloaded d2coding package into a web accessible path.
+2. Add ___d2coding.css___ in the path to the header section of the HTML document as follow:
 
 ```html
 <link href="/path/d2coding.css" rel="stylesheet" type="text/css">
 ```
 
-or
+### 3. Add font-face manually
+
+In the header section of the HTML document, add CSS ___@font-face___ as follow:
 
 ```css
 @font-face {
   font-family: 'D2 coding';
   font-style: normal;
-  font-weight: 700;
-  src: url('/path/d2codingbold.eot');
-  src: local('※'), local('D2Coding Bold'),
-       url('/path/d2codingbold.eot?#iefix') format('embedded-opentype'),
-       url('/path/d2codingbold.woff2') format('x-woff2'),
-       url('/path/d2codingbold.woff') format('woff'),
-       url('/path/d2codingbold.ttf') format('truetype'),
-       url('/path/d2codingbold.svg') format('svg');
+  font-weight: 400;
+  src: url('D2Coding.eot');
+  src: local('※'), local('D2Coding'),
+       url('D2Coding.eot?#iefix') format('embedded-opentype'),
+       url('D2Coding.woff2') format('x-woff2'),
+       url('D2Coding.woff') format('woff'),
+       url('D2Coding.ttf') format('truetype'),
+       url('D2Coding.svg') format('svg');
 }
 @font-face {
   font-family: 'D2 coding';
   font-style: normal;
-  font-weight: 400;
-  src: url('/path/d2coding.eot');
-  src: local('※'), local('D2Coding'),
-       url('/path/d2coding.eot?#iefix') format('embedded-opentype'),
-       url('/path/d2coding.woff2') format('x-woff2'),
-       url('/path/d2coding.woff') format('woff'),
-       url('/path/d2coding.ttf') format('truetype'),
-       url('/path/d2coding.svg') format('svg');
+  font-weight: 700;
+  src: url('d2codingbold.eot');
+  src: local('※'), local('D2Coding Bold'),
+       url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
+       url('D2CodingBold.woff2') format('x-woff2'),
+       url('D2CodingBold.woff') format('woff'),
+       url('D2CodingBold.ttf') format('truetype'),
+       url('D2CodingBold.svg') format('svg');
 }
 
 ```
+
+## Using
 
 Adding to CSS:
 
@@ -89,3 +112,4 @@ body {
 ```
 
 first, search local ___D2Coding font___ and next call ___D2 coding web font___, and last load ___monospace___
+
