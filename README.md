@@ -44,6 +44,13 @@ Due to the capacity limitation of jsdelivr, the ___D2 coding ligature___ branche
 
 https://github.com/Joungkyun/font-d2coding-ligature
 
+For ligature and subset fonts, use the following repository:
+
+- Ligature D2Coding Webfont: http://github.com/Joungkyun/font-d2coding-ligature
+- D2Coding subset Webfont: http://github.com/Joungkyun/font-d2coding-subset
+- D2Coding ligature subset Webfont: http://github.com/Joungkyun/font-d2coding-ligature-subset
+
+
 ## Installation
 
 ### 1. Using JSDelivr
@@ -90,7 +97,7 @@ In the header section of the HTML document, add CSS ___@font-face___ as follow:
   font-family: 'D2 coding';
   font-style: normal;
   font-weight: 700;
-  src: url('d2codingbold.eot');
+  src: url('D2CodingBold.eot');
   src: local('※'), local('D2Coding Bold'),
        url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
        url('D2CodingBold.woff2') format('x-woff2'),
