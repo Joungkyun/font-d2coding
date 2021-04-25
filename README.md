@@ -114,7 +114,7 @@ Adding to CSS:
 
 ```css
 body {
-	font-family: D2Coding, 'D2 coding', monosapce;
+	font-family: D2Coding, 'D2 coding', monospace;
 }
 ```
 
